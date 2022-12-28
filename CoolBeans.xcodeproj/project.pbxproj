@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644F60052888E84D0064852E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 644F60042888E84D0064852E /* menu.json */; };
+		644F60072888E9660064852E /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F60062888E9660064852E /* Drink.swift */; };
+		644F60092888F1650064852E /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F60082888F1650064852E /* MenuSection.swift */; };
+		644F600B2888F1C60064852E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F600A2888F1C60064852E /* Menu.swift */; };
+		644F600D2888F4F50064852E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F600C2888F4F50064852E /* MenuView.swift */; };
+		64C36F68288F6FE7007E3F93 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 64C36F66288F6FE7007E3F93 /* LICENSE.md */; };
+		64C36F69288F6FE7007E3F93 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64C36F67288F6FE7007E3F93 /* README.md */; };
+		64F42EEF2888E6B3003D26EB /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F42EEE2888E6B3003D26EB /* CoolBeansApp.swift */; };
+		64F42EF12888E6B3003D26EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F42EF02888E6B3003D26EB /* ContentView.swift */; };
+		64F42EF32888E6B5003D26EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F42EF22888E6B5003D26EB /* Assets.xcassets */; };
+		64F42EF62888E6B5003D26EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F42EF52888E6B5003D26EB /* Preview Assets.xcassets */; };
+		64F42F002888E6B5003D26EB /* CoolBeansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F42EFF2888E6B5003D26EB /* CoolBeansTests.swift */; };
+		64F42F0A2888E6B5003D26EB /* CoolBeansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F42F092888E6B5003D26EB /* CoolBeansUITests.swift */; };
+		64F42F0C2888E6B5003D26EB /* CoolBeansUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F42F0B2888E6B5003D26EB /* CoolBeansUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64F42EFC2888E6B5003D26EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F42EE32888E6B3003D26EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F42EEA2888E6B3003D26EB;
+			remoteInfo = CoolBeans;
+		};
+		64F42F062888E6B5003D26EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F42EE32888E6B3003D26EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F42EEA2888E6B3003D26EB;
+			remoteInfo = CoolBeans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644F60042888E84D0064852E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		644F60062888E9660064852E /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		644F60082888F1650064852E /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		644F600A2888F1C60064852E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		644F600C2888F4F50064852E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		64C36F66288F6FE7007E3F93 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		64C36F67288F6FE7007E3F93 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64F42EEB2888E6B3003D26EB /* CoolBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F42EEE2888E6B3003D26EB /* CoolBeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansApp.swift; sourceTree = "<group>"; };
+		64F42EF02888E6B3003D26EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F42EF22888E6B5003D26EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F42EF52888E6B5003D26EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F42EFB2888E6B5003D26EB /* CoolBeansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolBeansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F42EFF2888E6B5003D26EB /* CoolBeansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansTests.swift; sourceTree = "<group>"; };
+		64F42F052888E6B5003D26EB /* CoolBeansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolBeansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F42F092888E6B5003D26EB /* CoolBeansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansUITests.swift; sourceTree = "<group>"; };
+		64F42F0B2888E6B5003D26EB /* CoolBeansUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F42EE82888E6B3003D26EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F42EF82888E6B5003D26EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F42F022888E6B5003D26EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F42EE22888E6B3003D26EB = {
+			isa = PBXGroup;
+			children = (
+				64C36F66288F6FE7007E3F93 /* LICENSE.md */,
+				64C36F67288F6FE7007E3F93 /* README.md */,
+				64F42EED2888E6B3003D26EB /* CoolBeans */,
+				64F42EFE2888E6B5003D26EB /* CoolBeansTests */,
+				64F42F082888E6B5003D26EB /* CoolBeansUITests */,
+				64F42EEC2888E6B3003D26EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F42EEC2888E6B3003D26EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F42EEB2888E6B3003D26EB /* CoolBeans.app */,
+				64F42EFB2888E6B5003D26EB /* CoolBeansTests.xctest */,
+				64F42F052888E6B5003D26EB /* CoolBeansUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F42EED2888E6B3003D26EB /* CoolBeans */ = {
+			isa = PBXGroup;
+			children = (
+				64F42EEE2888E6B3003D26EB /* CoolBeansApp.swift */,
+				64F42EF02888E6B3003D26EB /* ContentView.swift */,
+				644F600C2888F4F50064852E /* MenuView.swift */,
+				644F60042888E84D0064852E /* menu.json */,
+				64F42EF22888E6B5003D26EB /* Assets.xcassets */,
+				64F42EF42888E6B5003D26EB /* Preview Content */,
+				644F60062888E9660064852E /* Drink.swift */,
+				644F60082888F1650064852E /* MenuSection.swift */,
+				644F600A2888F1C60064852E /* Menu.swift */,
+			);
+			path = CoolBeans;
+			sourceTree = "<group>";
+		};
+		64F42EF42888E6B5003D26EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F42EF52888E6B5003D26EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64F42EFE2888E6B5003D26EB /* CoolBeansTests */ = {
+			isa = PBXGroup;
+			children = (
+				64F42EFF2888E6B5003D26EB /* CoolBeansTests.swift */,
+			);
+			path = CoolBeansTests;
+			sourceTree = "<group>";
+		};
+		64F42F082888E6B5003D26EB /* CoolBeansUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64F42F092888E6B5003D26EB /* CoolBeansUITests.swift */,
+				64F42F0B2888E6B5003D26EB /* CoolBeansUITestsLaunchTests.swift */,
+			);
+			path = CoolBeansUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F42EEA2888E6B3003D26EB /* CoolBeans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F42F0F2888E6B5003D26EB /* Build configuration list for PBXNativeTarget "CoolBeans" */;
+			buildPhases = (
+				64F42EE72888E6B3003D26EB /* Sources */,
+				64F42EE82888E6B3003D26EB /* Frameworks */,
+				64F42EE92888E6B3003D26EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolBeans;
+			productName = CoolBeans;
+			productReference = 64F42EEB2888E6B3003D26EB /* CoolBeans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64F42EFA2888E6B5003D26EB /* CoolBeansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F42F122888E6B5003D26EB /* Build configuration list for PBXNativeTarget "CoolBeansTests" */;
+			buildPhases = (
+				64F42EF72888E6B5003D26EB /* Sources */,
+				64F42EF82888E6B5003D26EB /* Frameworks */,
+				64F42EF92888E6B5003D26EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F42EFD2888E6B5003D26EB /* PBXTargetDependency */,
+			);
+			name = CoolBeansTests;
+			productName = CoolBeansTests;
+			productReference = 64F42EFB2888E6B5003D26EB /* CoolBeansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64F42F042888E6B5003D26EB /* CoolBeansUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F42F152888E6B5003D26EB /* Build configuration list for PBXNativeTarget "CoolBeansUITests" */;
+			buildPhases = (
+				64F42F012888E6B5003D26EB /* Sources */,
+				64F42F022888E6B5003D26EB /* Frameworks */,
+				64F42F032888E6B5003D26EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F42F072888E6B5003D26EB /* PBXTargetDependency */,
+			);
+			name = CoolBeansUITests;
+			productName = CoolBeansUITests;
+			productReference = 64F42F052888E6B5003D26EB /* CoolBeansUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F42EE32888E6B3003D26EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					64F42EEA2888E6B3003D26EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					64F42EFA2888E6B5003D26EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64F42EEA2888E6B3003D26EB;
+					};
+					64F42F042888E6B5003D26EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64F42EEA2888E6B3003D26EB;
+					};
+				};
+			};
+			buildConfigurationList = 64F42EE62888E6B3003D26EB /* Build configuration list for PBXProject "CoolBeans" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F42EE22888E6B3003D26EB;
+			productRefGroup = 64F42EEC2888E6B3003D26EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F42EEA2888E6B3003D26EB /* CoolBeans */,
+				64F42EFA2888E6B5003D26EB /* CoolBeansTests */,
+				64F42F042888E6B5003D26EB /* CoolBeansUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F42EE92888E6B3003D26EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C36F68288F6FE7007E3F93 /* LICENSE.md in Resources */,
+				644F60052888E84D0064852E /* menu.json in Resources */,
+				64C36F69288F6FE7007E3F93 /* README.md in Resources */,
+				64F42EF62888E6B5003D26EB /* Preview Assets.xcassets in Resources */,
+				64F42EF32888E6B5003D26EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F42EF92888E6B5003D26EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F42F032888E6B5003D26EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F42EE72888E6B3003D26EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F42EF12888E6B3003D26EB /* ContentView.swift in Sources */,
+				644F600D2888F4F50064852E /* MenuView.swift in Sources */,
+				644F60072888E9660064852E /* Drink.swift in Sources */,
+				644F60092888F1650064852E /* MenuSection.swift in Sources */,
+				64F42EEF2888E6B3003D26EB /* CoolBeansApp.swift in Sources */,
+				644F600B2888F1C60064852E /* Menu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F42EF72888E6B5003D26EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F42F002888E6B5003D26EB /* CoolBeansTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F42F012888E6B5003D26EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F42F0A2888E6B5003D26EB /* CoolBeansUITests.swift in Sources */,
+				64F42F0C2888E6B5003D26EB /* CoolBeansUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64F42EFD2888E6B5003D26EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64F42EEA2888E6B3003D26EB /* CoolBeans */;
+			targetProxy = 64F42EFC2888E6B5003D26EB /* PBXContainerItemProxy */;
+		};
+		64F42F072888E6B5003D26EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64F42EEA2888E6B3003D26EB /* CoolBeans */;
+			targetProxy = 64F42F062888E6B5003D26EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64F42F0D2888E6B5003D26EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64F42F0E2888E6B5003D26EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F42F102888E6B5003D26EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolBeans/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradtaylor.CoolBeans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F42F112888E6B5003D26EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolBeans/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradtaylor.CoolBeans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64F42F132888E6B5003D26EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradtaylor.CoolBeansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBeans.app/CoolBeans";
+			};
+			name = Debug;
+		};
+		64F42F142888E6B5003D26EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradtaylor.CoolBeansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBeans.app/CoolBeans";
+			};
+			name = Release;
+		};
+		64F42F162888E6B5003D26EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradtaylor.CoolBeansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolBeans;
+			};
+			name = Debug;
+		};
+		64F42F172888E6B5003D26EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradtaylor.CoolBeansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolBeans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F42EE62888E6B3003D26EB /* Build configuration list for PBXProject "CoolBeans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F42F0D2888E6B5003D26EB /* Debug */,
+				64F42F0E2888E6B5003D26EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F42F0F2888E6B5003D26EB /* Build configuration list for PBXNativeTarget "CoolBeans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F42F102888E6B5003D26EB /* Debug */,
+				64F42F112888E6B5003D26EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F42F122888E6B5003D26EB /* Build configuration list for PBXNativeTarget "CoolBeansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F42F132888E6B5003D26EB /* Debug */,
+				64F42F142888E6B5003D26EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F42F152888E6B5003D26EB /* Build configuration list for PBXNativeTarget "CoolBeansUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F42F162888E6B5003D26EB /* Debug */,
+				64F42F172888E6B5003D26EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F42EE32888E6B3003D26EB /* Project object */;
+}
